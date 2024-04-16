@@ -53,6 +53,7 @@ void quickSort(int A[], int low, int high)
         quickSort(A, partitionIndex + 1, high); // sort right subarray
     }
 }
+
 int main()
 {
     int A[] = {3, 5, 2, 13, 12};
